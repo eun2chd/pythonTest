@@ -1,0 +1,16 @@
+설치 순서
+아나콘다 설치
+크롤링에서 사용되는 프로그램 : PyCharm 설치
+VS코드 설치
+
+아나콘다 설치후 아나콘다 프롬프트 실행
+리스트 확인 : conda env list
+sslerror 발생시 : conda config --set ssl_verify False
+study 가상환경 새로 만들기 :  conda create -n study python=3.8
+y 눌러서 설치
+다시 리스트 확인
+study 환경으로 변경 : conda activate study
+다시 base 로 변경 : conda deactivate
+Jupyter Notebook 설치 : 파이썬 코드 단계적 실행시켜줌
+콘다 프롬프트 스터디 환경으로 바꿔주기 : conda install jupyter notebook
+> jupyter notebook 
